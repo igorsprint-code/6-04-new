@@ -58,14 +58,44 @@ networks:
 
 Создайте конфигурацию docker-compose для Prometheus с именем контейнера <ваши фамилия и инициалы>-netology-prometheus.
 Добавьте необходимые тома с данными и конфигурацией (конфигурация лежит в репозитории в директории 6-04/prometheus ).
-Обеспечьте внешний доступ к порту 9090 c докер-сервера.`
+Обеспечьте внешний доступ к порту 9090 c докер-сервера.
+
+### Решение
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+prometheus:
+    image: prom/prometheus:v2.47.2
+    container_name: Dedyakhin_IV-netology-prometheus
+    command: --web.enable-lifecycle --config.file=/etc/prometheus/prometheus.yml
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus:/etc/prometheus
+      - prometheus_data:/prometheus
+    networks:
+      - Dedyakhin_IV-my-netology-hw
+    restart: always
+
+  node-exporter:
+    image: quay.io/prometheus/node-exporter:latest
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro,rslave
+      - /:/host:ro,rslave   # Ensure using 'rslave' for /host mount
+    command: 
+      - '--path.rootfs=/host'
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - --collector.filesystem.ignored-mount-points
+      - "^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns|rootfs/var/lib/docker/aufs)($$|/)"
+    ports:
+      - 9100:9100
+    networks:
+      - Dedyakhin_IV-my-netology-hw
+    restart: always
+    deploy:
+      mode: global
 ```
 
 `При необходимости прикрепитe сюда скриншоты
