@@ -30,11 +30,23 @@ Docker compose позволяет запускать несколько конт
 ### Решение
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+version: '3'
+
+volumes:
+  prometheus_data:
+  grafana-data:
+
+services:
+
+networks:
+  Dedyakhin_IV-my-netology-hw:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16    
+          gateway: 10.5.0.1
+
+
 ```
 
 `При необходимости прикрепитe сюда скриншоты
