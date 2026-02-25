@@ -218,7 +218,14 @@ Metric explorer
 
 Скриншот графика, построенного на основе метрики.
 
-![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad7с.jpg)
+![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad7c.jpg)
+
+
+
+
+
+
+
 
 
 
