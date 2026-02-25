@@ -184,4 +184,4 @@ grafana:
 
 Скриншот запуска сценария в detached режиме.
 
-![zad5](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad5.jpg)
+![zad6](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad5.jpg)
