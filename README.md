@@ -204,14 +204,13 @@ grafana:
 4 .Создайте график на основе добавленной в пункте 5 метрики (Build a dashboard -> Add visualization -> Prometheus -> Select metric -> Metric explorer -> <ваши фамилия и инициалы -> Apply.
 
 
+
+
 ### Решение
 
-Поочередность, режим перезапуска и локальная сеть были указаны выше.
 
 
-Скриншот запуска сценария в detached режиме.
 
-![zad6](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad6.jpg)
 
 
 
