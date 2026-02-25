@@ -234,12 +234,35 @@ https://github.com/igorsprint-code/6-04-new/blob/main/docker-compose.yml
 
 Cкриншот команды docker ps после запуске docker-compose.yml:
 
+![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad7d.jpg)
+
 
 
 
 Cкриншот графика, постоенного на основе вашей метрики:
 
 ![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad7c.jpg)
+
+
+
+---
+
+
+### Задание 8
+
+Выполните действия:
+
+Остановите и удалите все контейнеры одной командой.
+
+
+
+
+### Решение
+
+docker compose down
+
+
+
 
 
 
