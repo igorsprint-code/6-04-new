@@ -261,6 +261,8 @@ Cкриншот графика, постоенного на основе ваш�
 
 docker compose down
 
+![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad8.jpg)
+
 
 
 
