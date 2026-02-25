@@ -112,7 +112,7 @@ prometheus:
 Создайте конфигурацию docker-compose для Pushgateway с именем контейнера <ваши фамилия и инициалы>-netology-pushgateway.
 Обеспечьте внешний доступ к порту 9091 c докер-сервера.
 
-```
+```ruby
 pushgateway:
     image: prom/pushgateway:v1.6.2
     container_name: Dedyakhin_IV-netology-pushgateway
@@ -125,5 +125,5 @@ pushgateway:
     restart: unless-stopped
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+Скриншот браузера
+![zad4](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad4.jpg)
