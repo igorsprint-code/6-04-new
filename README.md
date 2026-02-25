@@ -179,25 +179,9 @@ grafana:
 
 ### Решение
 
-```ruby
-grafana:
-    image: grafana/grafana
-    container_name: Dedyakhin_IV-netology-grafana
-    environment:
-      GF_PATHS_CONFIG: /etc/grafana/custom.ini
-    ports:
-      - 80:3000
-    volumes:
-      - ./grafana:/etc/grafana
-      - grafana-data:/var/lib/grafana
-    networks:
-      - Dedyakhin_IV-my-netology-hw
-    depends_on: 
-      - prometheus
-    restart: unless-stopped
+Поочередность, режим перезапуска и локальная сеть были указаны выше.
 
 
-```
+Скриншот запуска сценария в detached режиме.
 
-Скриншот браузера
 ![zad5](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad5.jpg)
