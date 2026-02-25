@@ -127,3 +127,41 @@ pushgateway:
 
 Скриншот браузера
 ![zad4](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad4.jpg)
+
+
+---
+
+### Задание 5
+
+Выполните действия:
+
+Создайте конфигурацию docker-compose для Grafana с именем контейнера <ваши фамилия и инициалы>-netology-grafana.
+Добавьте необходимые тома с данными и конфигурацией (конфигурация лежит в репозитории в директории 6-04/grafana.
+Добавьте переменную окружения с путем до файла с кастомными настройками (должен быть в томе), в самом файле пропишите логин=<ваши фамилия и инициалы> пароль=netology.
+Обеспечьте внешний доступ к порту 3000 c порта 80 докер-сервера.
+
+
+### Решение
+
+```ruby
+grafana:
+    image: grafana/grafana
+    container_name: Dedyakhin_IV-netology-grafana
+    environment:
+      GF_PATHS_CONFIG: /etc/grafana/custom.ini
+    ports:
+      - 80:3000
+    volumes:
+      - ./grafana:/etc/grafana
+      - grafana-data:/var/lib/grafana
+    networks:
+      - Dedyakhin_IV-my-netology-hw
+    depends_on: 
+      - prometheus
+    restart: unless-stopped
+
+
+```
+
+Скриншот браузера
+![zad5](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad4.jpg)
