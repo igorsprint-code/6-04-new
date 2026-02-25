@@ -208,6 +208,20 @@ grafana:
 
 ### Решение
 
+Команда echo
+
+![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad7a.jpg)
+
+Metric explorer
+
+![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad7b.jpg)
+
+Скриншот графика, построенного на основе метрики.
+
+![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad7с.jpg)
+
+
+
 
 
 
