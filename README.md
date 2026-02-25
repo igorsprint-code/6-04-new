@@ -164,4 +164,4 @@ grafana:
 ```
 
 Скриншот браузера
-![zad5](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad4.jpg)
+![zad5](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad5.jpg)
