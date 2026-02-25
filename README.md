@@ -99,7 +99,7 @@ prometheus:
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![koshki](https://github.com/igorsprint-code/6-04-new/blob/main/images/123%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg)`
+![zadanie3](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad3.jpg)
 
 ### Задание 4
 
