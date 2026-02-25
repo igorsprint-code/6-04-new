@@ -227,17 +227,17 @@ Metric explorer
 
 ### Приложения
 
-docker-compose.yml целиком
+docker-compose.yml целиком:
 ```
 https://github.com/igorsprint-code/6-04-new/blob/main/docker-compose.yml
 ```
 
-скриншот команды docker ps после запуске docker-compose.yml;
+Cкриншот команды docker ps после запуске docker-compose.yml:
 
 
 
 
-скриншот графика, постоенного на основе вашей метрики.
+Cкриншот графика, постоенного на основе вашей метрики:
 
 ![zad7](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad7c.jpg)
 
