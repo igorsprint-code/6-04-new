@@ -98,7 +98,7 @@ prometheus:
       mode: global
 ```
 
-`При необходимости прикрепитe сюда скриншоты
+Скриншот браузера
 ![zadanie3](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad3.jpg)
 
 ### Задание 4
