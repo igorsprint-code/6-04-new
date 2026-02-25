@@ -167,6 +167,9 @@ grafana:
 ![zad5](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad5.jpg)
 
 
+---
+
+
 ### Задание 6
 
 Выполните действия.
@@ -185,3 +188,35 @@ grafana:
 Скриншот запуска сценария в detached режиме.
 
 ![zad6](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad6.jpg)
+
+
+
+---
+
+
+### Задание 7
+
+Выполните действия.
+
+1. Выполните запрос в Pushgateway для помещения метрики <ваши фамилия и инициалы> со значением 5 в Prometheus: echo "<ваши фамилия и инициалы> 5" | curl --data-binary @- http://localhost:9091/metrics/job/netology.
+2. Залогиньтесь в Grafana с помощью логина и пароля из предыдущего задания.
+3. Cоздайте Data Source Prometheus (Home -> Connections -> Data sources -> Add data source -> Prometheus -> указать "Prometheus server URL = http://prometheus:9090" -> Save & Test).
+4 .Создайте график на основе добавленной в пункте 5 метрики (Build a dashboard -> Add visualization -> Prometheus -> Select metric -> Metric explorer -> <ваши фамилия и инициалы -> Apply.
+
+
+### Решение
+
+Поочередность, режим перезапуска и локальная сеть были указаны выше.
+
+
+Скриншот запуска сценария в detached режиме.
+
+![zad6](https://github.com/igorsprint-code/6-04-new/blob/main/images/zad6.jpg)
+
+
+
+
+
+
+
+
