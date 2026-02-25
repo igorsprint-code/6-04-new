@@ -29,7 +29,7 @@ Docker compose позволяет запускать несколько конт
 
 ### Решение
 
-```
+```ruby
 version: '3'
 
 volumes:
@@ -62,7 +62,7 @@ networks:
 
 ### Решение
 
-```
+```ruby
 prometheus:
     image: prom/prometheus:v2.47.2
     container_name: Dedyakhin_IV-netology-prometheus
